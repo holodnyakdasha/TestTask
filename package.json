@@ -1,0 +1,18 @@
+{
+  "name": "fedtest",
+  "version": "2.0.0",
+  "description": "",
+  "main": "app/index.html",
+  "scripts": {
+    "start": "grunt"
+  },
+  "author": "Envoy Digital",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-less-compiler": "^0.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

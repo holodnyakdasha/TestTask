@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PLP - product listing page</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <h5>Products List</h5>
+    <a href="./form.html"><p> Form </p></a>
+  </header>
+  <main class="container">
+    <section class="sort_section">
+
+    </section>
+
+    <section class="filter_section">
+
+    </section>
+
+    <nav class="navbar">
+      <div class="products_count"></div>
+
+      <div class="navbar_options_section">
+        <div class="filter_block">
+          <section>
+            <select name="filterOptions" class="filter_options">
+              <option value="all">Filter</option>
+              <option value="S">Filter By: Small</option>
+              <option value="M">Filter By: Medium</option>
+              <option value="L">Filter By: Large</option>
+              <option value="XL">Filter By: Extra Large</option>
+            </select>
+          </section>
+      
+          <section>
+            <select name="sortOptions" class="sort_options">
+              <option value="all">Sort By: Most Relevant</option>
+              <option value="priceAsc">Sort By: Price Ascending</option>
+              <option value="priceDesc">Sort By: Price Descending</option>
+              <option value="name">Sort By: Name Ascending</option>
+            </select>
+      
+          </section>
+        </div>
+
+        <div class="products_direction_selector">
+          <div class="grid_view_icon active">
+            <i class="fa fa-th" aria-hidden="true"></i> Grid view
+          </div>
+    
+          <div class="list_view_icon">
+            <i class="fa fa-list-ul" aria-hidden="true"></i> List view
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+    <section class="products_list_container">
+      <h2 class="loading"> Data is loading... </h2>
+    </section>
+  </main>
+
+  <footer class="footer">
+    &copy; Copyright 2021
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
